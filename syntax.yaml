@@ -1,0 +1,30 @@
+# Baic YAML Syntax - Key Value Pair # 
+app: user-authentication
+port: 8080
+version: 1
+
+# YAML Object #
+microservice:
+  name: user-authentication
+  port: 8080
+  version: 1
+
+# YAML List # 
+# - Represents the list in YAML #
+
+microservices:
+  - name: user-authentication
+    port: 8080
+    version: 1
+  - name: user-management
+    port: 8081
+    version: 1
+
+# Boolean #
+# True or False, Yes or No, On or Off are supported in YAML as Boolean Values #
+
+webapplication:
+  name: Frontend
+  port: 80
+  version: 1
+  isDeployed: true
